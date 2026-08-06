@@ -4,7 +4,7 @@ A cloud-based task management application built using **React.js** and **AWS Ser
 
 ## 🌐 Live Demo
 
-**Application:** https://smart-task-manager-delta-pink.vercel.app
+**Live Application:** https://smart-task-manager-delta-pink.vercel.app
 
 ---
 
