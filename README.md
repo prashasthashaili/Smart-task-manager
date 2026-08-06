@@ -1,21 +1,27 @@
-# Smart Task Manager
+# 🚀 Smart Task Manager
 
-A cloud-native task management application built with **React.js** and **AWS Serverless Services**. The application allows users to create, update, and manage tasks through a responsive web interface while leveraging AWS services for scalable backend processing.
+A cloud-based task management application built using **React.js** and **AWS Serverless Services**. The application enables users to efficiently organize, prioritize, and manage tasks through a responsive interface backed by a scalable serverless architecture.
 
----
+## 🌐 Live Demo
 
-## Features
-
-- Create, update, and delete tasks
-- Responsive and user-friendly interface
-- Serverless backend architecture
-- REST API integration
-- Cloud-based data storage
-- Fast and scalable deployment
+**Application:** https://smart-task-manager-delta-pink.vercel.app
 
 ---
 
-## Tech Stack
+## 📌 Features
+
+- ✅ Create new tasks
+- ✏️ Update existing tasks
+- 🗑️ Delete tasks
+- 🎯 Assign task priority (High, Medium, Low)
+- 📅 Set task deadlines
+- 📊 Track task status (Added, Started, Completed)
+- 🔄 Drag-and-drop task management
+- 📱 Responsive user interface
+
+---
+
+## 🛠️ Tech Stack
 
 ### Frontend
 - React.js
@@ -40,36 +46,27 @@ A cloud-native task management application built with **React.js** and **AWS Ser
 
 ---
 
-## System Architecture
+## 🏗️ Architecture
 
 ```
-+-------------+
-|  React App  |
-+-------------+
-       |
-       | HTTP Requests
-       ▼
-+------------------+
-|  API Gateway     |
-+------------------+
-       |
-       ▼
-+------------------+
-|   AWS Lambda     |
-+------------------+
-       |
-       ▼
-+------------------+
-| Amazon DynamoDB  |
-+------------------+
+                   React.js
+                       │
+                       ▼
+               Amazon API Gateway
+                       │
+                       ▼
+                 AWS Lambda
+                       │
+                       ▼
+              Amazon DynamoDB
 ```
 
 ---
 
-## Project Structure
+## 📂 Project Structure
 
 ```
-Smart-task-manager/
+Smart-task-manager
 │
 ├── public/
 ├── src/
@@ -86,7 +83,7 @@ Smart-task-manager/
 
 ---
 
-## Installation
+## ⚙️ Installation
 
 Clone the repository
 
@@ -94,7 +91,7 @@ Clone the repository
 git clone https://github.com/prashasthashaili/Smart-task-manager.git
 ```
 
-Navigate to the project directory
+Move into the project directory
 
 ```bash
 cd Smart-task-manager
@@ -106,13 +103,13 @@ Install dependencies
 npm install
 ```
 
-Start the development server
+Run the application
 
 ```bash
 npm start
 ```
 
-The application will run at:
+Open
 
 ```
 http://localhost:3000
@@ -120,42 +117,48 @@ http://localhost:3000
 
 ---
 
-## How It Works
+## 📖 How It Works
 
-1. Users interact with the React frontend.
+1. Users create and manage tasks through the React interface.
 2. Requests are sent through Amazon API Gateway.
-3. AWS Lambda processes business logic.
-4. Task data is stored and retrieved from Amazon DynamoDB.
-5. The frontend displays updated task information in real time.
+3. AWS Lambda processes the business logic.
+4. Task information is stored in Amazon DynamoDB.
+5. Updated task information is displayed instantly.
 
 ---
 
-## Future Enhancements
-
-- User authentication with Amazon Cognito
-- Task categories and labels
-- Due dates and reminders
-- File attachments
-- Task search and filtering
-- Dark mode
-- Email notifications
-- Unit and integration testing
-
----
-
-## Skills Demonstrated
+## 🎯 Skills Demonstrated
 
 - React.js Development
-- Serverless Application Development
+- JavaScript (ES6)
+- REST API Integration
 - AWS Lambda
 - Amazon API Gateway
 - Amazon DynamoDB
-- REST API Integration
+- Serverless Computing
 - Cloud Deployment
 - Git & GitHub
 
 ---
 
-## Author
+## 🚀 Future Enhancements
+
+- User Authentication
+- Task Categories
+- Search and Filters
+- Email Notifications
+- Dark Mode
+- Recurring Tasks
+- Unit Testing
+- CI/CD with GitHub Actions
+
+---
+
+## 👩‍💻 Author
 
 **Prashastha Shaili**
+
+---
+## 📄 License
+
+This project is developed for educational and portfolio purposes.
